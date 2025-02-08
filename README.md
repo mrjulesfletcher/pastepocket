@@ -1,10 +1,8 @@
-# pastepocket
-PastePocket, as MacOS clipboard tool
+# PastePocket
+A MacOS clipboard tool
 
 Copyright © 2025 Jules Le Masson Fletcher.
 All rights reserved.
-
-# PastePocket
 
 **PastePocket** is a powerful, elegant top‑bar clipboard manager for macOS. It monitors your system clipboard in real time, maintains a history of your copied items (including text and files), and provides advanced features such as file previews, source app identification, and session saving—all from your menu bar.
 
