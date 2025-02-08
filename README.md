@@ -52,6 +52,9 @@ More than just a clipboard manager, PastePocket offers a revolutionary workflow 
 
 3. **Launch PastePocket:**  
    - Run PastePocket. It will appear as an icon in your macOS menu bar.
+   ![Open Anyway instructions](https://raw.githubusercontent.com/mrjulesfletcher/pastepocket/refs/heads/main/install_open_anyway.png)
+
+   *Note: If you see a warning that “PastePocket.app was blocked from opening because it is not from an identified developer,” right‑click (or Control‑click) the app in Finder and choose **Open**. Then, in System Preferences > Security & Privacy > General, click **Open Anyway**.*
 
 
 ## Usage
