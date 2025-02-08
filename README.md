@@ -4,9 +4,9 @@ A MacOS clipboard tool
 Copyright © 2025 Jules Le Masson Fletcher.
 All rights reserved.
 
-**PastePocket** is an elegant and powerful clipboard manager for macOS that transforms the way you work with copied content. Living in your menu bar, PastePocket continuously monitors your system clipboard and saves every item you copy—be it text, files, images, or more. With this tool, you can copy as many items as you want throughout your day and then, whenever you need them, quickly browse your entire history and paste the exact snippet or file you’re looking for.
+**PastePocket** is an elegant and powerful clipboard manager for macOS that transforms the way you work with copied content. Living in your menu bar, PastePocket continuously monitors your system clipboard and saves every item you copy—be it text, files, images, links, or more. With this tool, you can copy as many items as you want throughout your day and then, whenever you need them, quickly browse your entire history and paste the exact snippet or file you’re looking for.
 
-Featuring advanced file previews, source app identification, and session saving, PastePocket gives you total control over your clipboard history. Whether you're juggling multiple pieces of code, organizing important documents, or simply capturing ideas on the fly, PastePocket ensures nothing is ever lost—and everything is just a click away when you’re ready to paste or access.
+More than just a clipboard manager, PastePocket offers a revolutionary workflow that seamlessly blends note‑taking and bookmarking. Whether you’re saving important files, links, or texts, PastePocket lets you capture and organize your data so that nothing is ever lost—and everything is just a click away when you’re ready to paste or access it.
 
 ## Features
 
@@ -14,26 +14,32 @@ Featuring advanced file previews, source app identification, and session saving,
   Runs as a lightweight, menu‑bar–only app that stays out of your Dock.
 
 - **Real-Time Clipboard Monitoring:**  
-  Continuously tracks your clipboard and stores copied text, files, and folders.
+  Continuously tracks your clipboard and stores copied text, files, images, and links.
 
 - **File & Multi‑File Support:**  
-  - For file items, displays the file’s icon, full file path, and size.  
-  - For multiple file copies, aggregates them into a single item with a summary (e.g. "Multiple files (3, 2.1 MB)") and shows previews for all files when you hover over the item.
+  - **Single File:** Displays the file’s icon, full file path, and size.  
+  - **Multiple Files:** Aggregates multiple files into a single item (e.g. "Multiple files (3, 2.1 MB)") and shows previews for all files when you hover over the item.
+
+- **Clickable Links:**  
+  If an item is a valid URL, it is displayed as a clickable link that opens in your default browser. Hovering over link items shows an expanded link preview.
 
 - **Source Application Information:**  
-  Each ClipboardItem records the source app (e.g. Finder, Chrome, TextEdit) where the copy occurred.
+  Each clipboard item records the source application (e.g. Finder, Chrome, TextEdit) from which the copy occurred.
 
 - **Actions and Management:**  
   - **Pinning:** Keep important items at the top of your history.  
   - **Deletion:** Remove items you no longer need.  
-  - **Clear Unpinned:** Quickly clear out all non‑pinned items.  
+  - **Clear Unpinned:** Quickly remove all non‑pinned items.  
   - **Save Session:** Save your clipboard history to disk so that it can be restored later.
 
 - **Visual Feedback:**  
-  The header displays transient debug messages (e.g., "copied", "deleted", "pinned", "cleared", "saved") whenever you perform actions. The top‑bar icon also blinks (alternates between two symbol states) when a new item is copied.
+  The header displays transient debug messages (e.g., "copied", "deleted", "pinned", "cleared", "saved") whenever you perform actions. The top‑bar icon also blinks when a new item is copied.
 
-- **Expand/Collapse View:**  
+- **Expanded View:**  
   Easily expand the widget into a larger window for enhanced viewing, then collapse back to the compact popover.
+
+- **Integrated Note‑Taking and Bookmarking:**  
+  Beyond traditional clipboard management, PastePocket lets you capture and organize a wide range of content—from text snippets to files and links—acting as both a clipboard manager and a bookmarking tool in one.
 
 
 ## Installation
