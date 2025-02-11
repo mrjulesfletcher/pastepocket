@@ -41,6 +41,8 @@ More than just a clipboard manager, PastePocket offers a revolutionary workflow 
 - **Integrated Note‑Taking and Bookmarking:**  
   Beyond traditional clipboard management, PastePocket lets you capture and organize a wide range of content—from text snippets to files and links—acting as both a clipboard manager and a bookmarking tool in one.
 
+- **Paste Anywhere with Option+Right Click:**  
+  Hold **Option** and right‑click anywhere on your screen to instantly bring up the paste popover. This feature allows you to select a previously copied item and have it automatically pasted into any focused text field or drop zone, making PastePocket a true universal paste tool.
 
 ## Installation
 
@@ -55,7 +57,6 @@ More than just a clipboard manager, PastePocket offers a revolutionary workflow 
    ![Open Anyway instructions](https://raw.githubusercontent.com/mrjulesfletcher/pastepocket/refs/heads/main/install_open_anyway.png)
 
    *Note: If you see a warning that “PastePocket.app was blocked from opening because it is not from an identified developer,” right‑click (or Control‑click) the app in Finder and choose **Open**. Then, in System Preferences > Security & Privacy > General, click **Open Anyway**.*
-
 
 ## Usage
 
@@ -75,6 +76,8 @@ More than just a clipboard manager, PastePocket offers a revolutionary workflow 
 - **Expand/Collapse View:**  
   Tap the expand/collapse icon in the bottom toolbar to open a larger window view of PastePocket.
 
+- **Pasting with Option+Right Click:**  
+  To quickly paste a clipboard item into any app, simply hold the **Option** key and right‑click anywhere on your screen. This will trigger the paste popover, allowing you to select the item you want to paste. Once selected, PastePocket will automatically paste the content into the currently focused field of the active application.
 
 ## License
 
@@ -90,12 +93,8 @@ This repository contains the exported binary for PastePocket. The source code is
 
 PastePocket was created to provide an elegant, feature‑rich clipboard manager for macOS. Special thanks to the Apple Developer documentation and the SwiftUI community for guidance on building modern macOS apps.
 
-
-
-
-
+---
 
 This software and associated documentation files (the "Software") are the sole property of Jules Le Masson Fletcher and are provided for your personal, non-commercial use only. You may not reproduce, modify, distribute, or create derivative works of the Software without the prior written consent of Jules Le Masson Fletcher.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-
